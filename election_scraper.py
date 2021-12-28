@@ -91,10 +91,7 @@ def hlavni():
             vysledek[index_obce+1].append(vysledek_strany)
     vysledek.pop(-1)
     csv_export(vysledek,vstup[2])
-
-
-
-
+    print("Ukončuji election_scraper")
 
 if __name__ == "__main__":
     hlavni()
